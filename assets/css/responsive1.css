@@ -1,0 +1,78 @@
+
+@media only screen and (min-width : 361px) and (max-width : 768px) {
+.reviewlisting > a { float: right; margin: -43px 0; }
+.chatmenuIcon { display: block; }
+.me-page { width: 100%; }
+.brand a { float: left; overflow: hidden; padding: 20px; width: 70px; }
+.sidebar-left { left: -270px; }
+.sidebar-leftin { left: -0 !important; }
+.editBio h5 { width: 100%; }
+.bioDescription > p { width: 100%; }
+.bioDescription > p a { color: #0073f7; float: left; width: 100%; }
+.profilestat h5 { width: 100%; }
+.profilestat h5 span { margin: 0; }
+.editProfileAvatar { border-radius: 100%; float: none; height: 150px; margin: 0 auto; overflow: hidden; width: 150px; }
+.me-page h1 { margin-top: 10px; }
+.profilestat button { margin-top: 10px; }
+.creat-chat { background: #fff none repeat scroll 0 0; border: 1px solid #dfdfdf; border-radius: 3px; display: table; margin: 120px auto 0; padding: 20px; width: 100%; }
+.creat-chat form label { color: #006dfe; font-size: 14px; text-align: left; text-transform: capitalize; width: 100%; }
+.creat-chat form aside input { background: #fff none repeat scroll 0 0; border: 1px solid #dfdfdf; border-radius: 3px; margin: 10px 0; padding: 10px; width: 100%; }
+.creat-chat select { width: 100%; margin: 10px 0; }
+.creat-chat form aside .searcC { width: 100% !important; margin: 10px 0; }
+.chatOverviewBox { width: 100%; }
+.mesagearea textarea { border: medium none; box-shadow: none; color: #343434; float: left; height: 65px !important; padding: 22px 15px; resize: none; width: 100% !important; }
+.typing { float: left; padding: 15px; width: 100%; }
+.Cmessage { clear: none; float: right; width: 100%; }
+.Cmessage > p { background: #258df8 none repeat scroll 0 0; border-radius: 4px; color: #fff; margin: 10px; padding: 20px; word-wrap: break-word; }
+.chatMessage { float: left; padding: 10px; width: 100%; }
+.CmessageRTL > p { margin: 10px; padding: 20px; word-wrap: break-word; }
+.CmessageRTL { clear: none; float: left; width: 100%; }
+.chatMessageRTL { float: right; padding: 10px; width: 100%; }
+.mesage-timeRTL { float: right; margin-right: 5px; }
+.mesage-time { float: left; margin-left: 5px; }
+.mesage-date { float: left; margin-right: 0; }
+.bprofile { display: table; float: left; width: 100%; }
+.profilebPbtn { background: #0073f7 none repeat scroll 0 0; border: medium none; border-radius: 3px; color: #fff; float: left; margin-top: 10px; padding: 10px 25px; text-transform: uppercase; }
+.profilestatbio h5 span { float: left; margin: 4px 0 0; width: 100%; }
+.profilestatbio h5 { color: #555555; float: left; margin: 11px 0 0; text-align: left; width: 75%; }
+.employeesEditprofile h2 { color: #0f85f6; float: left; font-size: 14px; margin: 10px 0 0; text-align: center; text-transform: uppercase; width: 100%; }
+}
+
+@media only screen and (max-width : 360px) {
+.reviewlisting > a { float: right; margin: -43px 0; }
+.bprofile { display: table; float: left; width: 100%; }
+.profilebPbtn { background: #0073f7 none repeat scroll 0 0; border: medium none; border-radius: 3px; color: #fff; float: left; margin-top: 10px; padding: 10px 25px; text-transform: uppercase; }
+.profilestatbio h5 span { float: left; margin: 4px 0 0; width: 100%; }
+.profilestatbio h5 { color: #555555; float: left; margin: 11px 0 0; text-align: left; width: 75%; }
+.employeesEditprofile h2 { color: #0f85f6; float: left; font-size: 14px; margin: 10px 0 0; text-align: center; text-transform: uppercase; width: 100%; }
+.chatOverviewBox { width: 100%; }
+.CmessageRTL { clear: none; float: left; width: 100%; }
+.mesage-timeRTL { float: right; margin-right: 5px; }
+.mesage-time { float: left; margin-left: 5px; }
+.mesage-date { float: left; margin-right: 0; }
+.chatMessageRTL { float: right; padding: 10px; width: 100%; }
+.CmessageRTL > p { margin: 10px; padding: 20px; word-wrap: break-word; }
+.Cmessage > p { background: #258df8 none repeat scroll 0 0; border-radius: 4px; color: #fff; margin: 10px; padding: 20px; word-wrap: break-word; }
+.chatMessage { float: left; padding: 10px; width: 100%; }
+.typing { float: left; padding: 15px; width: 100%; }
+.Cmessage { clear: none; float: right; width: 100%; }
+.mesagearea textarea { border: medium none; box-shadow: none; color: #343434; float: left; height: 65px !important; padding: 22px 15px; resize: none; width: 100% !important; }
+.chatmenuIcon { display: block; }
+.me-page { width: 100%; }
+.brand a { float: left; overflow: hidden; padding: 20px; width: 70px; }
+.sidebar-left { left: -270px; }
+.sidebar-leftin { left: -0 !important; }
+.editBio h5 { width: 100%; }
+.bioDescription > p { width: 100%; }
+.bioDescription > p a { color: #0073f7; float: left; width: 100%; }
+.profilestat h5 { width: 100%; }
+.profilestat h5 span { margin: 0; }
+.editProfileAvatar { border-radius: 100%; float: none; height: 150px; margin: 0 auto; overflow: hidden; width: 150px; }
+.me-page h1 { margin-top: 10px; }
+.profilestat button { margin-top: 10px; }
+.creat-chat { background: #fff none repeat scroll 0 0; border: 1px solid #dfdfdf; border-radius: 3px; display: table; margin: 120px auto 0; padding: 20px; width: 100%; }
+.creat-chat form label { color: #006dfe; font-size: 14px; text-align: left; text-transform: capitalize; width: 100%; }
+.creat-chat form aside input { background: #fff none repeat scroll 0 0; border: 1px solid #dfdfdf; border-radius: 3px; margin: 10px 0; padding: 10px; width: 100%; }
+.creat-chat select { width: 100%; margin: 10px 0; }
+.creat-chat form aside .searcC { width: 100% !important; margin: 10px 0; }
+}

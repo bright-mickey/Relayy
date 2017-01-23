@@ -1,0 +1,708 @@
+/*
+Theme Name: Blue Silver Personal Site
+Theme URI: http://bluesilver0702.com/
+Author: XianA
+Author URI: http://bluesilver0702.com/
+Description: This is a custom theme for XianA
+Version: 1.0
+*/
+
+body {
+    background-color: #fff;
+    color: #333;
+    font-style: normal;
+    font-family: "Helvetica","Roboto","Arial","Verdana","sans-serif";
+    /*font-size: 18px;*/
+    line-height: 1.3;
+    font-weight: 200;
+    margin:0;
+    padding:0;
+}
+
+article, aside, footer, header, nav, main, section, summary, details, hgroup, figure, figcaption {
+    display: block;
+}
+
+p {margin: 0 0 1em 0;}
+
+ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, hgroup, p, blockquote, figure, form, fieldset, input, legend, pre, abbr {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #08c;
+}
+
+.right-nav {
+    color:#555;
+}
+
+a:visited, a:link, a:active {
+    text-decoration: none;
+}
+
+.border-style-small{
+    padding: 20px;
+    border:1px solid #999;
+}
+
+.border-style-deep{
+    padding: 50px;
+    border:1px solid #999;
+}
+
+.auth_subtitle{
+    font-size:25px;
+    line-height:30px;
+    color:#00FFFF;
+    text-align: center;
+}
+
+.auth_guide{
+    font-size: 24;
+    text-align: center;
+}
+
+.auth_token{
+    font-size: 32px;
+    text-align: center;
+}
+
+.main {
+    position: static;
+    z-index: 1;
+    margin: 0 auto;
+    display: block;
+    line-height: 1.0;
+    font-weight: 200;
+    height: 100vh;
+}
+
+
+.footer_links li a {
+    color: #666;
+}
+
+.footer_links>li>a {
+    padding: 0 0.9em 0 0;
+    margin-right: 0.3333em;
+    border-right: 1px solid #e3e3e3;
+    white-space: nowrap;
+}
+
+.footer_links>li>a.last {
+    border-right: 0px solid #e3e3e3;
+}
+
+.footer_copyright {
+    width: auto;
+    /*float: left;*/
+    padding-left: 0.6em;
+}
+
+.footer_links {
+    width: auto;
+    /*float: right;*/
+    margin: 0;
+}
+
+.footer_wrapper {
+    position: fixed;
+    z-index: 1;
+    margin: 0 auto;
+    font-size: 12px;
+    line-height: 1.3333;
+    font-weight: 400;
+    clear: both;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer_wrapper:before, .footer_wrapper:after {
+    content: " ";
+    display: table;
+}
+
+.footer_global {
+    /*margin: 10px auto 18px auto;*/
+    padding: 18px 0;
+    color: #999;
+    border-top: #e3e3e3 1px solid;
+    line-height: 1;
+    font-size: 1em;
+}
+
+/*.footer_global, .section_wrapper {
+    width: 100%;
+    max-width: 980px;
+}*/
+
+.footer_links li {
+    display: inline-block;
+}
+
+.main {
+    position: static;
+    z-index: 1;
+    margin: o auto;
+    padding:30px 0;
+    display: block;
+    line-height: 1.0;
+    font-weight: 200;
+    height: 100vh;
+}
+
+.section_wrapper {
+    margin: 0 auto;
+/*    padding: 30px 0;*/
+}
+
+.text_hero {
+/*    float: left;
+    width: 100%;
+    max-width: 540px;*/
+    text-align: center;
+    padding: 120px 0px 0;
+}
+
+.invite-page .text_hero {
+    padding-top:100px;
+}
+
+.invite-page .section_wrapper {
+    max-width:500px;
+}
+
+.invite-page form {
+    padding: 110px 0;
+}
+
+p.hi_logo {
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    background-image: url("../images/logo.jpg");
+}
+
+.text_hero .hi_tit {
+    font-size: 2.4em;
+    font-weight: 200;
+    margin: 10px auto;
+}
+
+.hi_icos {
+    background-size: 240px 48px;
+    height: 48px;
+    width: 240px;
+}
+
+p.hi_icos {
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    background-image: url("../images/hi_icos.png");
+}
+
+p.con_text {
+    display: block;
+    font-weight: 400;
+    margin-top: 50px;
+}
+
+.btn_download {
+    display: inline-block;
+    /*background: url("../images/facebook-login-button.png");*/
+    background-color: #08f; 
+    font-size: 22px;
+    padding: 13px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    cursor: auto;
+    width:300px;
+    color:white;
+    text-decoration: none;
+}
+
+.main .facebook {
+
+    background: url("../images/linkedin-icon.png") 12px center no-repeat;
+    background-color:#72b7f8;
+    margin-bottom:10px;
+    padding:10px 50px;
+}
+
+.main .register_with_linkedIn {
+    color: #FFF;
+    background: url("../images/linkedin-icon.png") 12px center no-repeat;
+    background-color:#AA0022;
+    margin-bottom:10px;
+}
+
+.btn_download:hover {
+    text-decoration: none;
+    color:#efefef;
+    cursor: pointer;
+}
+       
+.fb_iframe_widget iframe {
+    opacity: 0;
+}
+
+.fb_iframe_widget {
+    display: inline-block;
+    background: url("../images/facebook-login-button.png");
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    cursor: auto;
+    width:300px;
+    height:55px;
+    background-repeat: no-repeat; 
+}
+
+.btn_save {
+    display: inline-block;
+    margin:0 0 20px;
+    background-color: #378cff;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    cursor: auto;
+    padding: 10px 34px;
+    color: #fff;
+    font-size: 0.9em;
+}
+
+.subtext {
+    display: block;
+    color: #999;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.image_hero img {
+    margin:auto;
+    display:block;
+    width:100%;
+}
+
+.image_hero {
+/*    margin-left: 500px;
+    height: 614px;
+    width: 460px;*/
+}
+
+.hi_logo {
+    background-size: contain;
+    height: 70px;
+    width: 300px;
+}
+
+.appstore {
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-image: url("../images/appstore.png");
+    width: 180px;
+    height: 60px;
+    background-size: 180px 60px;
+}
+
+.playstore {
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-image: url("../images/playstore.png");
+    width: 175px;
+    height: 60px;
+    background-size: 180px 60px;
+}
+
+.main-left {
+    float: left;
+    width: 100%;
+    max-width: 700px;
+    padding: 50px 0px 0;
+}
+
+.main-right {
+    margin-left: 700px;
+    padding-top:50px;
+    width: 280px;
+}
+
+.search-list .main-left {
+    max-width: 550px;
+}
+
+.search-list .main-right {
+    margin-left: 550px;
+    width: 430px;
+}
+    
+.main-profile {
+    text-align:left;
+}
+
+h2.nav-tab-wrapper {
+    padding: 29px 15px 4px 0;
+    line-height: 29px;
+    color: #23282d;
+    padding-left: 6px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 0;
+    font-size: 23px;
+    font-weight: 400;
+}
+
+.nav-tab {
+    border: 1px solid #ccc;
+    border-bottom: none;
+    background: #e4e4e4;
+    color: #555;
+    
+    padding: 4px 15px 6px;
+    margin: 0 3px -1px 0;
+    font-size: 18px;
+    vertical-align: top;
+    border-width: 1px;
+    white-space: nowrap;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+h2 .nav-tab-active, h2 .nav-tab-active:hover {
+    border-bottom: 1px solid #fff;
+    background: #fff;
+    color: #333;
+}
+
+.nav-tab:hover {
+    background-color: #f1f1f1;
+    color: #444;
+}
+
+.nav-tab {
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid #ccc;
+}
+
+.main-color  {
+    border: 1px solid #00a2e8;
+}
+
+.main-desc1, .main-desc2, .main-desc3 {
+    margin: 20px 0;
+    border-color: rgb(200, 200, 200);
+    box-sizing:border-box;         
+    margin:20px auto;
+/*    display:block;*/
+}
+
+.main-desc3 {
+    width:100%;
+}
+
+.main-desc1, .main-desc2 {
+    width:49%;
+}
+
+.main-desc1 {margin-right:1%;}
+
+.bg-white {background:white;}
+
+#searchbox {
+    height: 34px;
+    width: 250px;
+}
+
+input::-webkit-input-placeholder {
+    color: #00a2e8;
+}
+
+input:-moz-placeholder {
+    color: #00a2e8;
+}
+
+input::-moz-placeholder {
+    color: #00a2e8;
+}
+
+input:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+input:focus:-moz-placeholder {
+    color: transparent;
+}
+
+input:focus::-moz-placeholder {
+    color: transparent;
+}
+
+#searchbox input {
+    outline: none;
+}
+
+#searchbox input[type="text"] {
+    background: transparent;
+    margin: 0px 0px 0px 11px;
+    padding: 6px 0px 6px 0px;
+    border-width: 0px;
+    font-family: "Arial Narrow", Arial, sans-serif;
+    font-size: 18px;
+    font-style: italic;
+    width: 79%;
+    color: #828282;
+    display: inline-table;
+    vertical-align: top;
+}
+
+#button-submit {
+    background: url(../images/search-btn.png) center #00a2e8 no-repeat;
+    border-width: 0px;
+    cursor: pointer;
+    width: 36px;
+    height: 34px;
+}
+
+#button-submit:hover {
+    background-color:#0092d8;
+}
+
+#button-submit::-moz-focus-inner {
+    border: 0;
+}
+
+.cat-country, .cat-province, .cat-city {
+    height: 34px;
+    width: 252px;
+    color: #00a2e8;
+    margin-bottom: 20px;
+}
+
+#searchbox, .cat-country, .cat-province, .cat-city {
+    float:right;
+}
+
+#header {
+    margin: 0 auto;
+    padding: 15px;
+}
+
+#color_bar {
+    height: 12px;
+    background: #0099ff;
+}
+
+.shadow {
+    background: transparent url('../images/shadow.png') no-repeat left top;
+    display: block;
+    height: 13px;
+    margin: 0 auto;
+/*    width: 950px;*/
+    background-size:100%;
+}
+
+#header .tagline {
+    float: right;
+    width: 425px;
+}
+
+#header:after, #container:after, .caption_and_post_info:after, #footer:after .buttons:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.mod:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+#header .tagline .text {
+    display: block;
+    float: left;
+    height: 51px;
+    overflow: hidden;
+    width: 262px;
+    text-align:right;
+    color:#666;
+    font-size:20px;
+}
+
+#header .tagline a.button {
+    display: block;
+    float: right;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    top: 1px;
+    width: 120px;
+}
+
+#header .tagline a.button {
+    text-shadow: 0px -1px 1px #6d932a;
+    filter: dropshadow(color=#6d932a, offx=0, offy=1);
+    background-color: #77c32f;
+    border: solid 1px #5e9a25;
+    padding: 10px 0;
+    -moz-box-shadow: rgba(255, 255, 255, 0.4) 0 1px 0px inset;
+    -webkit-box-shadow: rgba(255, 255, 255, 0.4) 0 1px 0px inset;
+    -o-box-shadow: rgba(255, 255, 255, 0.4) 0 1px 0px inset;
+    box-shadow: rgba(255, 255, 255, 0.4) 0 1px 0px inset;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+.bg-color {background:#eee;}
+
+.main-left.bg-color {
+    padding:8px;
+}
+
+.main-left .user-header, .main-left .user-list, .main-left .user-footer {
+    background:white;
+}
+
+ul.user-list {list-style:none;}
+
+.user-header {padding: 18px 14px}
+
+.user-footer {
+    padding: 18px 14px;
+    text-align:center;
+    font-size:14px;
+    color:#9197a3;
+    border-top:1px solid #dfdfdf;
+}
+
+.user-item {
+    border-top:1px solid #dfdfdf;
+    padding:12px;
+}
+
+.user-item img {
+    float:left;
+}
+
+.user-meta {
+    margin-left: 112px;
+    width: 400px;
+}
+
+.user-action {
+    float:right;
+}
+
+.search-list {
+    padding:12px 0;
+}
+
+.meta-other, .meta-title {
+    font-size:13px;
+}
+
+.meta-other {
+    color:#818793;    
+}
+
+.clear:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+.meta-name {
+    margin-top: 10px;
+}
+
+.user-action a {
+    font-size: 13px;
+    font-weight: bold;
+    padding: 4px 8px;
+    border: 1px solid;
+    cursor:pointer;
+}
+
+.user-info img {
+    float:left;
+}
+
+.user-info h2, .user-info h3 {
+    margin-left:168px;
+}
+
+#load-users {
+    width:50%;
+    height:6px;
+    display:block;
+    margin:auto;
+    visibility: hidden;
+}
+
+.visible {
+    visibility: visible!important;
+}
+/*************** bootstrap customize *****************/
+.chat-page .navbar-nav>li>a {
+    padding: 10px 20px;
+}
+
+.chat-page .navbar {
+    margin-bottom: 0px;
+    padding: 17px 0;
+}
+
+@media (min-width: 768px) {
+    .chat-page .navbar-nav {
+        margin-top:3px;
+    }    
+}
+
+.chat-page #logo {
+    padding:0;
+}
+
+@media (max-width: 767px) {
+    .chat-page .navbar-nav {
+        float:none!important;
+    }    
+}
+
+/*************** other pages *****************/
+.other-page h4 {
+    font-size:1.8em;
+    font-weight: 200;
+    line-height: 1.14;
+    margin:5px 0;
+}
+
+.other-page .post-text p {
+    line-height: 1.43em;
+    margin-bottom: 20px;
+    font-size: 1em;
+}
+
+.other-page .post-text {
+    padding:30px;
+    min-height:500px;
+}

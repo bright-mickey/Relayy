@@ -1,0 +1,245 @@
+/*================================================================================
+	Item Name: Kode
+	Description: Premium Bootstrap Admin Template
+	Author: Egemen Kapusuz
+	Author URL: http://www.themeforest.net/user/egemem
+================================================================================*/
+
+/* =================================================================================
+smaller than 1280 
+================================================================================= */
+@media screen and (max-width: 1920px) {
+	.project-container{
+		padding:40px;
+	}
+
+	.profile-container{
+		margin:100px 120px 20px 120px;
+	}
+
+	.chat-header{
+	  	padding:0px 10px 10px 10px;
+	  	margin:0;
+  	}	 
+
+    .chat-text{
+		margin:0;
+    }
+
+	.chat-input{
+		margin:0;
+	}
+
+	.sidepanel{
+		width:300px;
+	}
+
+	#top-right-name{
+		display:block;
+		font-size:16px;
+	}
+	
+}
+
+/* =================================================================================
+smaller than 1024 
+================================================================================= */
+
+@media screen and (max-width: 1280px) {
+	.project-container{padding:10px;}
+	.profilebox b{display: none;}
+	.searchform{display: none;}
+	.content{margin-left: 300 !important;}
+	.social-stats{bottom: 100px;}
+	.topstats li{width: 33%;}
+	.demo-sidebarmenu .sidebar{display: block;}
+	.profile-container{
+		margin:100px 40px 20px 40px;
+	}
+	
+}
+
+
+
+/* =================================================================================
+smaller than 760 
+================================================================================= */
+@media screen and (min-width:761px){
+	.mobilelogo{display: none;}
+	#mobile-right-back{
+		display: none;
+	}
+	.chat-detail{
+		display: block;
+	}
+	#mobile-left-back{
+		display: none;
+	}
+	.sidebar{
+		width:300px;
+	}
+	
+	.window-chat-item{
+		display: block;
+	}
+	.mobile-chat-item{
+		display:none;
+	}
+	.sidepanel {
+	  z-index: 3;
+	  position: absolute;
+	  display: none;
+	  width: 300px;
+	  top: 66px;
+	  bottom: 0;
+	  right: 0;
+	  padding-top: 20px;
+	  overflow: visible;
+	  box-shadow: -1px 0px 1px rgba(0, 0, 0, 0.2);
+	  background: #FFF;
+	  height: 1000px;
+	}
+	.desktop-visible-item{
+		display: block;
+	}
+	.mobile-visible-item{
+		display: none;
+	}
+	.teamup-create-content{
+		padding: 100px 100px 100px 50px;
+	}
+	::-webkit-scrollbar { 
+	    display: block; 
+	}
+	
+
+
+	.slimScrollDiv { 
+		position: relative;
+	  	height: 98%;
+	}
+}
+@media screen and (max-width: 760px) {
+	::-webkit-scrollbar { 
+	    display: none; 
+	}
+
+	.page-header .right{display: none;}
+	.presentation .list{float: left; margin-top: 20px;}
+	.applogo{display: none;}
+	.mobilelogo{display: block;}
+	.container-padding, .container-no-padding{margin-left:-40px; margin-right: -40px;}
+	.social-content{padding-left: 10px; padding-right: 10px;}
+	.chart-with-stats .top-label{right: 20px;}
+	.mailbox-menu .menu li{display: block; width: 100%; border-right:none; border-bottom: 1px solid rgba(0, 0, 0, 0.08);}
+	.chat .title{height: auto;}
+	.profile-left .btn{display: none;}
+	.topstats li{width: 50%;}
+	.sidebar{left: -800px;}/* 800px-30(padding)*/
+	.sidebar-leftin{left:-0 !important;}
+	.content{margin-left: 0 !important;}
+	.sidebar-open-button-mobile{display: block;}
+	.sidebar{
+		width:100%;
+	}
+
+	.profile-container{
+		margin:100px 30px 20px 30px;
+	}
+	
+	.sidepanel {
+	  z-index: 3;
+	  position: absolute;
+	  display: none;
+	  top: 60px;
+	  bottom: 0;
+	  right: 0;
+	  padding-top: 20px;
+	  overflow: visible;
+	  box-shadow: -1px 0px 1px rgba(0, 0, 0, 0.2);
+	  background: #FFF;
+	  height: 1000px;
+	  width:100%;
+	}
+	#mobile-right-back{
+		display: block;
+	}
+	.chat-detail{
+		display: none;
+	}
+	#mobile-left-back{
+		display: block;
+	}
+
+
+	.window-chat-item{
+		display: none;
+	}
+	
+	
+	.chat-more-button{
+		position: absolute;
+		right: 10px;
+		top: 25px;
+	}
+	.chat-list-button{
+		position: absolute;
+		left: 0px;
+		top: 10px;
+	}
+	#top{
+		display:;
+	}
+	.desktop-visible-item{
+		display: none;
+	}
+	.mobile-visible-item{
+		display: block;
+	}
+	.teamup-create-content{
+		padding: 100px 10px 50px 10px;
+	}
+}
+
+/* =================================================================================
+smaller than 428 
+================================================================================= */
+@media screen and (max-width: 428px) {
+	.top-right{display: none;}
+	.profile-container{
+		margin:100px 0px 20px 0px;
+	}
+	.content{
+		padding:0px;
+	}
+
+  .chat-header{
+  	padding:0px 10px 10px 10px;
+  	margin:0;
+  	border-top: 1px solid #BBB;
+  	border-left: 0px;
+  	border-right: 0px;
+  } 
+
+  .chat-text{
+	margin:0;
+	border: 0;
+  }
+
+	.topstats li{width: 100%;}
+
+	.chat-content{
+		background:#FFF;
+	}
+
+	#top-right-name{
+		display:none;
+		font-size:16px;
+	}
+
+
+}
+
+
+
+
